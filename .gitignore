@@ -1,0 +1,5 @@
+.obsidian/
+site/
+.site/
+.cache/
+__pycache__/

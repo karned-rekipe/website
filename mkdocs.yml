@@ -1,0 +1,46 @@
+site_name: Rekipe
+site_description: Organiser les recettes, les repas et les courses du foyer.
+site_url: https://karned-rekipe.github.io/website/
+repo_url: https://github.com/karned-rekipe/website
+repo_name: karned-rekipe/website
+edit_uri: edit/main/docs/
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: fr
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  features:
+    - navigation.sections
+    - navigation.top
+    - toc.follow
+    - content.action.edit
+  palette:
+    - scheme: default
+      primary: white
+      accent: green
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - Accueil: index.md
+  - Comprendre Rekipe: comprendre-rekipe.md
+  - Etat actuel: etat-actuel.md
+  - Trajectoire: trajectoire.md
+  - Releases:
+      - Meal planner: releases/meal-planner.md
+      - Shopping: releases/shopping.md
+  - Contributeurs: contributeurs.md
