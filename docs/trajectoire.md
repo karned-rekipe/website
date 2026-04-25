@@ -24,14 +24,11 @@ Le choix de trajectoire est donc :
 4. transformer les repas en courses ;
 5. retirer l'ancien système seulement quand l'ensemble est de nouveau couvert.
 
-## Prochaines releases à orienter
+## Prochaines releases
 
-Deux documents posent l'orientation générale avant spécification complète :
+Les prochaines releases concernent la planification des repas puis les courses.
 
-- [Release meal planner](releases/meal-planner.md)
-- [Release shopping](releases/shopping.md)
-
-Ces documents ne sont pas encore des spécifications détaillées. Ils servent à valider la direction produit, le périmètre initial et les arbitrages à traiter.
+Le cadrage détaillé de ces releases reste dans la documentation projet interne. Le site public garde volontairement une lecture produit simple : il présente la trajectoire, sans exposer les notes de travail.
 
 ## Principe de delivery
 
